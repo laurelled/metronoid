@@ -1,8 +1,34 @@
-# Metronome
+# Metronoid
 
 A minimalistic metronome webpage because I need one and Google metronome is too basic.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+
+# Why overkilling it with Angular?
+
+Well, first of all because it's a great way to learn how components interact with each others! You need to watch the changes to the tempo value, and set other components accordingly.
+
+## A preliminary roadmap
+
+Another reason of using Angular is because **I plan to extend Metronoid and make it something more useful**, for example implementing a music sheet along side the metronome to play your favourite pieces of music with a custom tempo! It shouldn't be too hard, I've just got to figure out if I want to use an existing library (e.g. [alphaTab](https://github.com/CoderLine/alphaTab)) or make my own (which is another overkill! In case you didn't already figure it out, I love trying to do stuff myself and explore how it's done this way).
+
+Metronoid roadmap:
+
+- Metronome
+  - range input to change tempo 10 by 10 👩‍💻
+  - text input to change tempo with custom values 👩‍💻
+  - implement the metronome algorithm with high sound precision (see [this repo](https://github.com/cwilso/metronome/) for reference) for quarter notes. 🧪
+  - make a visual representation of the tempo
+  - implement others resolution of the tempo algorithm + visuals
+- _Music sheet extension - TBD_
+  - _study what libraries could be used, is it worth trying to solo it? Too much effort?_
+
+Legend:
+
+- 👩‍💻 = currently implementing
+- 🧪 = researching / study of doability
+
+# Getting started
 
 ## Development server
 
